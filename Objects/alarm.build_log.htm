@@ -1,0 +1,157 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information:  ,  , LIC=BL2UH-W2EJY-487FA-10VSF-VCYLT-SSJ3T
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.15.0
+Toolchain Path:  C:\Arvin\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+ 
+<h2>Project:</h2>
+\\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\alarm.uvprojx
+Project File Date:  06/01/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Arvin\Keil\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+.\System\define.h(483): warning:  #1295-D: Deprecated declaration Stm32_Clock_Init - give arg types
+  void Stm32_Clock_Init();
+.\System\define.h(487): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Hardware\LED\led.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Hardware\BEEP\beep.h(8): warning:  #1295-D: Deprecated declaration Run_Beep - give arg types
+  void Run_Beep();
+.\Hardware\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Stop_Beep - give arg types
+  void Stop_Beep();
+.\Hardware\RTC\rtc.h(24): warning:  #1295-D: Deprecated declaration RTC_GetCounter - give arg types
+  uint32_t RTC_GetCounter();
+.\Hardware\RTC\rtc.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Hardware\LCD\touch.h(67): warning:  #1295-D: Deprecated declaration TP_Adjust - give arg types
+  void TP_Adjust();
+.\Hardware\LCD\touch.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Hardware\KEY\key.h(11): warning:  #1295-D: Deprecated declaration KEY_Scan - give arg types
+  u8 KEY_Scan();                //按??扫?韬???          
+main\main.c(24): warning:  #1295-D: Deprecated declaration ShowDate - give arg types
+  void ShowDate();
+main\main.c(30): warning:  #1295-D: Deprecated declaration Get_TimeMode - give arg types
+  u8 Get_TimeMode();
+main\main.c(39): warning:  #177-D: variable "CurrentTime" was declared but never referenced
+        u32 CurrentTime;
+main\main.c: 13 warnings, 0 errors
+compiling delay.c...
+System\define.h(483): warning:  #1295-D: Deprecated declaration Stm32_Clock_Init - give arg types
+  void Stm32_Clock_Init();
+System\define.h(487): warning:  #1-D: last line of file ends without a newline
+  #endif
+System\delay.c(47): warning:  #1-D: last line of file ends without a newline
+  }
+System\delay.c: 3 warnings, 0 errors
+compiling define.c...
+System\define.h(483): warning:  #1295-D: Deprecated declaration Stm32_Clock_Init - give arg types
+  void Stm32_Clock_Init();
+System\define.h(487): warning:  #1-D: last line of file ends without a newline
+  #endif
+System\define.c: 2 warnings, 0 errors
+compiling led.c...
+.\System\define.h(483): warning:  #1295-D: Deprecated declaration Stm32_Clock_Init - give arg types
+  void Stm32_Clock_Init();
+.\System\define.h(487): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\LED\led.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\LED\led.c: 3 warnings, 0 errors
+compiling beep.c...
+.\System\define.h(483): warning:  #1295-D: Deprecated declaration Stm32_Clock_Init - give arg types
+  void Stm32_Clock_Init();
+.\System\define.h(487): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\BEEP\beep.h(8): warning:  #1295-D: Deprecated declaration Run_Beep - give arg types
+  void Run_Beep();
+Hardware\BEEP\beep.h(9): warning:  #1295-D: Deprecated declaration Stop_Beep - give arg types
+  void Stop_Beep();
+Hardware\BEEP\beep.c(16): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(300);//??时300ms  
+Hardware\BEEP\beep.c(23): warning:  #1-D: last line of file ends without a newline
+  }
+Hardware\BEEP\beep.c: 6 warnings, 0 errors
+compiling lcd.c...
+.\System\define.h(483): warning:  #1295-D: Deprecated declaration Stm32_Clock_Init - give arg types
+  void Stm32_Clock_Init();
+.\System\define.h(487): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\LCD\font.h(308): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\LCD\lcd.c(71): warning:  #177-D: variable "temp" was declared but never referenced
+        u16 temp;  
+Hardware\LCD\lcd.c(910): warning:  #223-D: function "strlen" declared implicitly
+    strlenth=strlen((const char*)str);
+Hardware\LCD\lcd.c: 5 warnings, 0 errors
+compiling rtc.c...
+.\System\define.h(483): warning:  #1295-D: Deprecated declaration Stm32_Clock_Init - give arg types
+  void Stm32_Clock_Init();
+.\System\define.h(487): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\RTC\rtc.h(24): warning:  #1295-D: Deprecated declaration RTC_GetCounter - give arg types
+  uint32_t RTC_GetCounter();
+Hardware\RTC\rtc.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\RTC\rtc.c(207): warning:  #1-D: last line of file ends without a newline
+  }
+Hardware\RTC\rtc.c: 5 warnings, 0 errors
+compiling touch.c...
+.\System\define.h(483): warning:  #1295-D: Deprecated declaration Stm32_Clock_Init - give arg types
+  void Stm32_Clock_Init();
+.\System\define.h(487): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\LCD\touch.h(67): warning:  #1295-D: Deprecated declaration TP_Adjust - give arg types
+  void TP_Adjust();
+Hardware\LCD\touch.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\LCD\touch.c: 4 warnings, 0 errors
+compiling key.c...
+.\System\define.h(483): warning:  #1295-D: Deprecated declaration Stm32_Clock_Init - give arg types
+  void Stm32_Clock_Init();
+.\System\define.h(487): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\KEY\key.h(11): warning:  #1295-D: Deprecated declaration KEY_Scan - give arg types
+  u8 KEY_Scan();                //按??扫?韬???          
+Hardware\KEY\key.c: 3 warnings, 0 errors
+compiling usart.c...
+.\System\define.h(483): warning:  #1295-D: Deprecated declaration Stm32_Clock_Init - give arg types
+  void Stm32_Clock_Init();
+.\System\define.h(487): warning:  #1-D: last line of file ends without a newline
+  #endif
+Hardware\USART\usart.c(50): warning:  #1-D: last line of file ends without a newline
+  }
+Hardware\USART\usart.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=12712 RO-data=6688 RW-data=68 ZI-data=1100  
+FromELF: creating hex file...
+".\Objects\alarm.axf" - 0 Error(s), 47 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE
+  C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

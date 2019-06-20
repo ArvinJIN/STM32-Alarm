@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System -I.\Hardware\LED -I.\Hardware\BEEP -I.\Hardware\LCD -I.\Hardware\RTC -I.\Hardware\KEY -I.\Hardware\USART
+-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE
+-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+-I C:\Arvin\Keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="515" -DSTM32F10X_HD
+-o .\objects\define.o --omf_browse .\objects\define.crf --depend .\objects\define.d "System\define.c"

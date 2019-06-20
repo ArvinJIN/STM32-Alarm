@@ -1,0 +1,12 @@
+.\objects\main.o: main\main.c
+.\objects\main.o: .\System\define.h
+.\objects\main.o: .\System\delay.h
+.\objects\main.o: .\Hardware\LED\led.h
+.\objects\main.o: .\Hardware\BEEP\beep.h
+.\objects\main.o: .\Hardware\LCD\lcd.h
+.\objects\main.o: C:\Arvin\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: .\Hardware\RTC\rtc.h
+.\objects\main.o: .\Hardware\LCD\touch.h
+.\objects\main.o: .\Hardware\KEY\key.h
+.\objects\main.o: .\Hardware\USART\usart.h
+.\objects\main.o: C:\Arvin\Keil\ARM\ARMCC\Bin\..\include\stdio.h

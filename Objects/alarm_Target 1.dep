@@ -1,0 +1,51 @@
+Dependencies for Project 'alarm', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main\startup_stm32f10x_hd.s)(0x5CF29F0E)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Arvin\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (.\main\main.c)(0x5CF3FADF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System -I.\Hardware\LED -I.\Hardware\BEEP -I.\Hardware\LCD -I.\Hardware\RTC -I.\Hardware\KEY -I.\Hardware\USART-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Arvin\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\System\define.h)(0x5CF49620)
+I (.\System\delay.h)(0x5CEE6B26)
+I (.\Hardware\LED\led.h)(0x5CEC114C)
+I (.\Hardware\BEEP\beep.h)(0x5CED5880)
+I (.\Hardware\LCD\lcd.h)(0x5CF48FF0)
+I (C:\Arvin\Keil\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (.\Hardware\RTC\rtc.h)(0x5CF3CEE2)
+I (.\Hardware\LCD\touch.h)(0x5CF4BE29)
+I (.\Hardware\KEY\key.h)(0x5CF36FDC)
+I (.\Hardware\USART\usart.h)(0x5CF3FA65)
+I (C:\Arvin\Keil\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (.\System\delay.c)(0x5CF36478)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System -I.\Hardware\LED -I.\Hardware\BEEP -I.\Hardware\LCD -I.\Hardware\RTC -I.\Hardware\KEY -I.\Hardware\USART-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Arvin\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (System\delay.h)(0x5CEE6B26)
+I (System\define.h)(0x5CF49620)
+F (.\System\define.c)(0x5CF3F9C4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System -I.\Hardware\LED -I.\Hardware\BEEP -I.\Hardware\LCD -I.\Hardware\RTC -I.\Hardware\KEY -I.\Hardware\USART-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Arvin\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\define.o --omf_browse .\objects\define.crf --depend .\objects\define.d)
+I (System\define.h)(0x5CF49620)
+F (.\Hardware\LED\led.c)(0x5CF363A5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System -I.\Hardware\LED -I.\Hardware\BEEP -I.\Hardware\LCD -I.\Hardware\RTC -I.\Hardware\KEY -I.\Hardware\USART-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Arvin\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (Hardware\LED\led.h)(0x5CEC114C)
+I (.\System\define.h)(0x5CF49620)
+F (.\Hardware\BEEP\beep.c)(0x5CF36C8D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System -I.\Hardware\LED -I.\Hardware\BEEP -I.\Hardware\LCD -I.\Hardware\RTC -I.\Hardware\KEY -I.\Hardware\USART-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Arvin\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
+I (Hardware\BEEP\beep.h)(0x5CED5880)
+I (.\System\define.h)(0x5CF49620)
+F (.\Hardware\LCD\lcd.c)(0x5CF4B822)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System -I.\Hardware\LED -I.\Hardware\BEEP -I.\Hardware\LCD -I.\Hardware\RTC -I.\Hardware\KEY -I.\Hardware\USART-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Arvin\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (Hardware\LCD\lcd.h)(0x5CF48FF0)
+I (.\System\define.h)(0x5CF49620)
+I (C:\Arvin\Keil\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (Hardware\LCD\font.h)(0x5CEE5D26)
+I (.\System\delay.h)(0x5CEE6B26)
+F (.\Hardware\RTC\rtc.c)(0x5CF3CEAE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System -I.\Hardware\LED -I.\Hardware\BEEP -I.\Hardware\LCD -I.\Hardware\RTC -I.\Hardware\KEY -I.\Hardware\USART-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Arvin\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (Hardware\RTC\rtc.h)(0x5CF3CEE2)
+I (.\System\define.h)(0x5CF49620)
+I (.\System\delay.h)(0x5CEE6B26)
+F (.\Hardware\LCD\touch.c)(0x5CF4C61E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System -I.\Hardware\LED -I.\Hardware\BEEP -I.\Hardware\LCD -I.\Hardware\RTC -I.\Hardware\KEY -I.\Hardware\USART-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Arvin\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\touch.o --omf_browse .\objects\touch.crf --depend .\objects\touch.d)
+I (Hardware\LCD\touch.h)(0x5CF4BE29)
+I (.\System\define.h)(0x5CF49620)
+I (.\System\delay.h)(0x5CEE6B26)
+I (Hardware\LCD\lcd.h)(0x5CF48FF0)
+I (C:\Arvin\Keil\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Arvin\Keil\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Arvin\Keil\ARM\ARMCC\include\math.h)(0x54C245B8)
+F (.\Hardware\KEY\key.c)(0x5CF36F99)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System -I.\Hardware\LED -I.\Hardware\BEEP -I.\Hardware\LCD -I.\Hardware\RTC -I.\Hardware\KEY -I.\Hardware\USART-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Arvin\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (Hardware\KEY\key.h)(0x5CF36FDC)
+I (.\System\define.h)(0x5CF49620)
+I (.\System\delay.h)(0x5CEE6B26)
+F (.\Hardware\USART\usart.c)(0x5CF3FADF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\System -I.\Hardware\LED -I.\Hardware\BEEP -I.\Hardware\LCD -I.\Hardware\RTC -I.\Hardware\KEY -I.\Hardware\USART-I \\Mac\Home\Desktop\大三下期\嵌入式\Alarm_Arvin\Alarm_final_comment\RTE-I C:\Arvin\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Arvin\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (Hardware\USART\usart.h)(0x5CF3FA65)
+I (.\System\define.h)(0x5CF49620)
+I (C:\Arvin\Keil\ARM\ARMCC\include\stdio.h)(0x54C245B8)
